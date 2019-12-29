@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 //EN">
+<html>
+<head>
+<title>HAPPY NEW YEAR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+<script>
+	function fun()
+	{
+		
+
+		var a=prompt("Enter your name");
+		var node = document.createTextNode(a);
+		var element = document.getElementById("content");
+		element.appendChild(node);
+	
+		
+	}
+	function msg()
+	{
+		document.getElementById('btn').style.display="none";
+		var node = document.createTextNode("Wishing every day of the new year to be filled with success, happiness and prosperity for you");
+		document.getElementById('msg').appendChild(node);
+		//document.getElementById('Decorate').style.display="inline";
+	}
+</script>
+  
+</head>
+
+<body onload="fun();">
+
+<div class="container">
+
+
+		
+	<div class="fallingSnow">
+		<span></span>
+
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	
+	</div>
+	<div class="text-center">
+  
+  <h1><p id="content">Wish you happy new year       </p><p id="from">from Srujana Penugonda</p></h1>
+</div>
+<div class="text-center">
+    <img src="b1.png" class="fish" alt="Smiley face" height="8%" width="10%" float="left"/>
+	<img src="b2.png" class="fish" alt="Smiley face" height="8%" width="10%"/>
+	
+	<img src="b3.png" class="fish" alt="Smiley face" height="8%" width="10%" />
+	</div>
+	
+<div class="text-center">
+
+<img src="cake128.png" class="fish" alt="Smiley face" height="15%" width="15%"><p id="msg"></p></img>
+</div>
+<div class="text-center">
+<button id="btn" type="button" onclick="msg()"><b color="red">MESSAGE FOR YOU</b></button>
+</div>
+	
+</body></html>
