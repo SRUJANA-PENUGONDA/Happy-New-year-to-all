@@ -13,6 +13,10 @@
 		
 
 		var a=prompt("Enter your name");
+		while(a==null)
+		{
+			var a=prompt("Your Sweet name Please");
+		}
 		var node = document.createTextNode(a);
 		var element = document.getElementById("content");
 		element.appendChild(node);
